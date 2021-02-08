@@ -8,7 +8,8 @@ const App = () => {
       {/* <Header /> */}
 
       <div id="content">
-        <ReactMarkdown source={lesson_one} />
+        {/* <ReactMarkdown source={lesson_one} /> */}
+        <header>this is a header</header>
       </div>
 
       {/* <Footer /> */}
