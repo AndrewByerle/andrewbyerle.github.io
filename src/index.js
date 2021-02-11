@@ -14,7 +14,7 @@ const Index = () => (
       <div>
         <Route path="/" component={App} />
       </div>
-      <Footer />
+      <Footer/>
     </BrowserRouter>
   </div>
 );
