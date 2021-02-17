@@ -3,7 +3,7 @@
 
 
 /* == UI COMPONENTS == */
-buttons
+/* buttons
 [type="button"],
 [type="submit"],
 button,
@@ -14,7 +14,6 @@ button,
  display: inline-block;
   text-decoration: none;
   font-size: 1rem;
-  /* if you change the font, don't forget to change it here too! */
   font-family: 'Quicksand', sans-serif;
   padding: .6rem 1.2rem;
   vertical-align: middle;
@@ -26,9 +25,10 @@ button,
   border-radius: 10px;
   margin-bottom: 3%;
   margin-top: 10px;
-}
+} */
 
 /* == HTML == */
+/* Header box size */
 *,
 *:before,
 *:after {
@@ -50,69 +50,151 @@ html {
 }
 
   /* vertical distance of topnav */
+  /* Gets rid of underline in title */
 a {
-  font-size: 15%;
   text-decoration: none;
 } 
-
-
-p {
-  float: right;
-}
-
-
 /* paragraph */
 /* == HEADERS == */
 h1 {
-  color: #1f8bc9;
-  /* margin-top: 2rem; */
+  color: #ffffff;
   line-height: 1.2;
   font-size: 3rem;
   margin: 1% 2% 2% 1%;
-  
+}
+#title_name:hover{
+  background-color:#ffffff;
+  color: #1f8bc9;
+  font-weight: bold;
+  font-size: 100%;
+  padding: 1%;
 }
 header {
   height: 17%;
   position: fixed;
   top: 0px;
+  left: 0px;
   justify-content: space-between;
   width: 100%;
-  padding: 30px;
-  background-color: #ffffff;
+  padding: 2%;
+  background-color: #1f8bc9;
+  border: 2px solid #534547;
+  border-radius: 1px;
 }
 
-/* .masthead {
-  position: sticky;
-} */
+/* Spacing for intro and self */
+.main {
+  margin: 8% 10% 0% 8%;
+}
 
-/* .main {
-  position: sticky;
-} */
-
-
-
-
-/* 
-.container::before,
-.container::after,
-.wrapper::before,
-.wrapper::after {
-  display: table;
-  content: "";
-  clear: both;
-  width: 100%;
-} */
-
-/* .main {
-  margin: 2rem;
-} */
+.body {
+  font-family: "Space Mono", monospace;
+}
 
 .intro {
   color: #e40f2b;
+  font-size: 30px;
   font-weight: 700;
+  line-height: 60px;
+}
+/* Header About Me */
+#aboutme {
+  color: #e40f2b;
+  font-size: 300%;
+  font-weight: 600;
+  padding-top: 70%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+/* "Container */
+.aboutme{
+  width: 100%;;
 }
 
+.about {
+  font-weight: 800;
+  text-align: center;
+  color: blue;
+  line-height: 100%;
+}
+#about2{
+  text-align: left;
+  padding-top: 100%;
+}
 
+/* For Intro */
+p1 span {
+  display: block;
+}
+
+.name {
+  color:rgb(255, 0, 0);
+  font-size: 38px;
+}
+
+#fam {
+  width: 48%;
+  float: left;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+
+}
+
+#self {
+  float: right;
+  width: 40%;
+  /* padding-right: 10%; */
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+
+}
+
+#self:hover{
+  transform: translate3d(0px,-10px,0px);  
+}
+.github {
+  font-size: 80%;
+  color: rgb(52, 49, 59);
+  padding: 1%;
+}
+.github:hover{
+  color: midnightblue;
+  font-size: 100%;
+}
+
+.insta {
+  font-size: 80%;
+  color: rgb(49, 49, 59);
+  padding: 2%;
+}
+.insta:hover{
+  color:midnightblue;
+  font-size: 100%;
+}
+
+.mail {
+  font-size: 80%;
+  color: rgb(49, 49, 59);
+  padding: 3%;
+}
+.mail:hover{
+  color: midnightblue;
+  font-size: 100%;
+}
+
+.linkedin {
+  font-size: 80%;
+  color: rgb(49, 49, 59);
+  padding: 3%;
+}
+.linkedin:hover{
+  color:midnightblue;
+  font-size: 100%;
+}
+
+.socials {
+  text-align: center;
+  padding-top: 50%;
+  bottom: 0px;
+}
 
 .footer {
   clear: both;
@@ -128,26 +210,31 @@ header {
 
 
 /* Style the links inside the navigation bar */
+.topnav {
+  float: right;
+  font-size: 15%;
+  text-decoration: none;
+}
 .topnav a {
   float: left;
   display: block;
-  color: red;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 19px;
+  font-size: 235%;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #1f8bc9;
-  color: white;
+  background-color: white;
+  color: #1f8bc9;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #1f8bc9;
-  color: white;
+  background-color: white;
+  color: #1f8bc9;
 }
 
 .topnav .icon {
