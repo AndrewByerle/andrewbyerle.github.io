@@ -99,12 +99,19 @@ header {
 }
 /* Header About Me */
 #aboutme {
-  color: #e40f2b;
+  color: rgb(40, 106, 194);
   font-size: 300%;
   font-weight: 600;
   padding-top: 70%;
   padding-bottom: 2%;
   text-align: center;
+  margin-top: 10px;  
+}
+/* Underline About Me */
+#aboutme:after{
+  content:' ';
+  display:block;
+  border:2px solid black;
 }
 /* "Container */
 .aboutme{
@@ -113,13 +120,14 @@ header {
 
 .about {
   font-weight: 800;
+  font-size: 120%;
   text-align: center;
-  color: blue;
-  line-height: 100%;
+  color: darkslategrey;
+  line-height: 160%;
 }
-#about2{
+.about2{
   text-align: left;
-  padding-top: 100%;
+  margin-top: 3%;
 }
 
 /* For Intro */
@@ -133,10 +141,12 @@ p1 span {
 }
 
 #fam {
-  width: 48%;
+  width: 65%;
   float: left;
+  margin-top: 10%;
+  margin-left: -10%;
+  margin-right: 5%;;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
-
 }
 
 #self {

@@ -6,9 +6,9 @@ import { FiSend } from "react-icons/fi"
 
 
 const intro = (<p1 class="intro"><span>Hi, I'm <p2 class="name">Andrew!</p2></span> <span> I am a sophomore at UNC-Chapel Hill <span>studying Computer Science and Music.</span></span></p1>)
-const About = (<p2 class="about"><span>Hey! I'm a sophomore at the University of North Carolina at Chapel Hill following my passions for application development and music. I am currently from Northern Virginia (Nova), but I moved frequenly in a military family growing up.Some of the places I'v lived include Germany, Utah, Nebraska, Maryland, Arizona, Alabama, and Michigan.</span></p2>)
-const About2 = (<p2 class="about" id="about2">
-                <div>
+const About = (<p2 class="about"><span>Hey! I'm a sophomore at the University of North Carolina at Chapel Hill following my passions for application development and music. I am currently from Northern Virginia (Nova), but I moved frequenly when my parents were in the military.Some of the places I'v lived include Germany, Utah, Nebraska, Maryland, Arizona, Alabama, and Michigan.</span></p2>)
+const About2 = (<p2 class="about">
+                <div class="about2">
                 this is the second part of my paragraph.
                 </div>
                </p2>)
