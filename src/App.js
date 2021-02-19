@@ -42,7 +42,7 @@ const App = () => {
             {/* space for header below */}
             <div style={{height: 200}} >
             </div>
-            <img id="self" src="/images/self.JPG"/> 
+            <img id="self" src="/images/self2.jpg"/> 
             {intro}
           </p1>
           <div>

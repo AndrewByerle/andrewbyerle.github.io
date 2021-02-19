@@ -176,9 +176,9 @@ p1 span {
 
 }
 
-#self:hover{
+/* #self:hover{
   transform: translate3d(0px,-10px,0px);  
-}
+} */
 .app{
   float: center;
   margin: 0% 2% 0% 10.5%;
