@@ -64,11 +64,19 @@ const App = () => {
           </div>
         </div>
 
-        <div id="code" style={{height: 1000}}>
+        <div id="code" style={{height: 1500}}>
           <h3 class="subheaders">
             Code
           </h3>
-
+          <h4 id="AppHeader">
+            Travel App
+          </h4>
+          <img class="app" id="app" src="/images/app3.png"/>
+          <img class="app" id="search" src="/images/search.png"/>
+          <img class="app" id="zoomed"src="/images/zoomed.png"/>
+          <div id="appexplain">
+            <p1 class="about"> Built a fully functional mobile travel app in January 2021 guided by UNC's Student Developer Club Flutter Workshop utilizing Flutter, dart, and the public travel briefing API. The app allows for the ease of search and information display of country information. </p1>
+          </div>
         </div>
         </body>
         <div id="socials"> 

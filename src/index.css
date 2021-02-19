@@ -179,6 +179,33 @@ p1 span {
 #self:hover{
   transform: translate3d(0px,-10px,0px);  
 }
+.app{
+  float: center;
+  margin: 0% 2% 0% 10.5%;
+}
+#AppHeader{
+  color:#9862c5;
+  font-size: 200%;
+  font-weight: bolder;
+  text-align: center;
+}
+#appexplain{
+  text-align: left;
+  padding-top: 10%;
+}
+/* Pictures */
+#app{
+  width: 17.9%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+#search{
+  width: 20%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+#zoomed{
+  width: 20%;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
 .github {
   font-size: 80%;
   color: rgb(52, 49, 59);
