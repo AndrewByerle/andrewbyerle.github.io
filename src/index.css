@@ -119,13 +119,22 @@ header {
     border:2px solid #d0d0d0;
     border-radius:4px;
 }
+#bottomheader{
+  color: rgb(40, 106, 194);
+  font-size: 300%;
+  font-weight: 600;
+  text-align: center;
+}
+#bottomheader:after{
+  content:' ';
+    display:block;
+    border:2px solid #d0d0d0;
+    border-radius:4px;
+}
 /* "Container */
 .aboutme{
   width: 100%;;
   font-size: 100%;
-}
-.code{
-  background-color: #828ca7;
 }
 
 .about {
@@ -212,8 +221,7 @@ p1 span {
 
 .socials {
   text-align: center;
-  padding-top: 50%;
-  bottom: 0px;
+  padding-top: 30%;
 }
 
 .footer {
@@ -222,7 +230,7 @@ p1 span {
   height: 200px;
   color: #eee;
   height: 2.5rem;
-  margin-top: 2rem;
+  margin-top: .1rem;
   padding: 0.5rem 1rem;
   text-align: center;
   background-color: #1f8bc9;
