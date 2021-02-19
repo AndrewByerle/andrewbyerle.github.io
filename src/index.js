@@ -8,7 +8,7 @@ import App from "./App";
 import "./index.css";
 
 const Index = () => (
-  <div class="main">
+    <div class="main"> 
     <BrowserRouter>
       <Header />
       <div>
@@ -16,7 +16,7 @@ const Index = () => (
       </div>
       <Footer/>
     </BrowserRouter>
-  </div>
+    </div>
 );
 
 ReactDOM.render(<Index />, document.getElementById("root"));

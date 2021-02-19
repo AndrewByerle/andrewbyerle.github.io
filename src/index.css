@@ -47,6 +47,7 @@ html {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 18px;
+  
 }
 
   /* vertical distance of topnav */
@@ -63,11 +64,9 @@ h1 {
   margin: 1% 2% 2% 1%;
 }
 #title_name:hover{
-  background-color:#ffffff;
-  color: #1f8bc9;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 100%;
-  padding: 1%;
+  font-size: 101%;
 }
 header {
   height: 17%;
@@ -92,34 +91,45 @@ header {
 }
 
 .intro {
-  color: #e40f2b;
-  font-size: 30px;
+  color: rgb(3, 82, 187);
+  font-size: 180%;
   font-weight: 700;
   line-height: 60px;
 }
+#arrow {
+  color: #cecece;
+  height: 100%;
+  width: 28%;
+  padding-top: 25%;
+  padding-left: 25%;
+}
 /* Header About Me */
-#aboutme {
+.subheaders {
   color: rgb(40, 106, 194);
   font-size: 300%;
   font-weight: 600;
-  padding-top: 70%;
   padding-bottom: 2%;
   text-align: center;
-  margin-top: 10px;  
+  padding-top: 15%;
 }
 /* Underline About Me */
-#aboutme:after{
+.subheaders:after{
   content:' ';
-  display:block;
-  border:2px solid black;
+    display:block;
+    border:2px solid #d0d0d0;
+    border-radius:4px;
 }
 /* "Container */
 .aboutme{
   width: 100%;;
+  font-size: 100%;
+}
+.code{
+  background-color: #828ca7;
 }
 
 .about {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 120%;
   text-align: center;
   color: darkslategrey;
@@ -136,14 +146,14 @@ p1 span {
 }
 
 .name {
-  color:rgb(255, 0, 0);
-  font-size: 38px;
+  color:mediumblue;
+  font-size: 120%;
 }
 
 #fam {
   width: 65%;
   float: left;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   margin-left: -10%;
   margin-right: 5%;;
   box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
@@ -172,7 +182,7 @@ p1 span {
 
 .insta {
   font-size: 80%;
-  color: rgb(49, 49, 59);
+  color: rgb(203, 56, 223);
   padding: 2%;
 }
 .insta:hover{
@@ -182,7 +192,7 @@ p1 span {
 
 .mail {
   font-size: 80%;
-  color: rgb(49, 49, 59);
+  color: rgb(186, 186, 235);
   padding: 3%;
 }
 .mail:hover{
@@ -192,7 +202,7 @@ p1 span {
 
 .linkedin {
   font-size: 80%;
-  color: rgb(49, 49, 59);
+  color: rgb(27, 99, 207);
   padding: 3%;
 }
 .linkedin:hover{
@@ -237,13 +247,14 @@ p1 span {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: white;
-  color: #1f8bc9;
+  /* background-color: white; */
+  color: #f4f4f5;
+  font-size: 270%;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: white;
+  background-color: white; 
   color: #1f8bc9;
 }
 
