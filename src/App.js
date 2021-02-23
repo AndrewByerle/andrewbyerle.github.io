@@ -6,7 +6,7 @@ import { FiSend } from "react-icons/fi"
 
 
 const intro = (<p1 class="intro"><span>Hi, I'm <p2 class="name">Andrew!</p2></span> I am a sophomore at UNC-Chapel Hill <span>studying Computer Science and Music.</span></p1>)
-const About = (<p2 class="about"><b>Hey!</b>I'm a sophomore at the University of North Carolina at Chapel Hill following my passions for application development and music. In my free time, I'm an avid golfer, a skilled tennis player, a talented musician, and a proficient beginner at longboarding. On campus, I channel my creative energy into project development for UNC's Google Develeper Student Club and solving technical problems in my community for CS + Social Good. I have played piano for as long as I can remember, and I am a dedicated clarinetist in the UNC Clarinet Studio and Wind Ensemble. </p2>)
+const About = (<p2 class="about"><b>Hey!</b>I'm a sophomore at the University of North Carolina at Chapel Hill following my passions for application development and music. In my free time, I'm an avid golfer, a skilled tennis player, a talented musician, and a proficient beginner at longboarding. On campus, I channel my creative energy into project development for UNC's Google Developer Student Club and solving technical problems in my community for CS + Social Good. I have played piano for as long as I can remember, and I am a dedicated clarinetist in the UNC Clarinet Studio and Wind Ensemble. </p2>)
 const About2 = (<p2 class="about">
                 <div class="about2">
                   I am from Northern Virginia (NoVa), but I've traveled to many different places growing up as a military brat. Some of the places I've lived include Germany, Utah, Nebraska, Maryland, Arizona, Alabama, and Michigan.
@@ -64,18 +64,25 @@ const App = () => {
           </div>
         </div>
 
-        <div id="code" style={{height: 1500}}>
+        <div id="code" style={{height: 2000}}>
           <h3 class="subheaders">
             Code
           </h3>
-          <h4 id="AppHeader">
+          <h4 class="AppHeader">
             Travel App
           </h4>
           <img class="app" id="app" src="/images/app3.png"/>
           <img class="app" id="search" src="/images/search.png"/>
           <img class="app" id="zoomed"src="/images/zoomed.png"/>
           <div id="appexplain">
-            <p1 class="about"> Built a fully functional mobile travel app in January 2021 guided by UNC's Student Developer Club Flutter Workshop utilizing Flutter, dart, and the public travel briefing API. The app allows for the ease of search and information display of country information. </p1>
+            <p1 class="about"> Built a fully functional mobile travel app in January 2021 guided by UNC's Student Developer Club Flutter Workshop utilizing Flutter, dart, and the public travel briefing API. The app allows for the ease of search and display of country information. </p1>
+          </div>
+          <div>
+            <h4 class="AppHeader">
+            ToDo-List
+            </h4>
+            <p1 class="about"> Created a simple ToDo List as a weekend project for CS + Social Good at UNC. Try it</p1>
+            <a href="https://andrewbyerle.github.io/todo-app/" id="todolink"> Here</a>
           </div>
         </div>
         </body>

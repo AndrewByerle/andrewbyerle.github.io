@@ -183,11 +183,16 @@ p1 span {
   float: center;
   margin: 0% 2% 0% 10.5%;
 }
-#AppHeader{
+.AppHeader{
   color:#9862c5;
   font-size: 200%;
   font-weight: bolder;
   text-align: center;
+}
+#todolink{
+  color: #1f8bc9;
+  font-size: 180%;
+  font-weight: 800;
 }
 #appexplain{
   text-align: left;
